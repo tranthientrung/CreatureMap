@@ -1,0 +1,32 @@
+{
+  "plugins": [
+    [
+      "module-resolver",
+      {
+        "root": ["./Sources"],
+        "extensions": [
+          ".js",
+          ".ts",
+          ".tsx",
+          ".native",
+          ".ios.js",
+          ".native.js",
+          ".ios.json",
+          ".native.json",
+          ".json",
+          ".ios.ts",
+          ".native.ts",
+          ".ios.tsx",
+          ".native.tsx",
+          ".native"
+        ],
+        "alias": {
+          "@Screens": "./Sources/Screens",
+          "@Navigation": "./Sources/Navigation",
+          "@Services": "./Sources/Services",
+          "@Utils": "./Sources/Utils"
+        }
+      }
+    ]
+  ]
+}

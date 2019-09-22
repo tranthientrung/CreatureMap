@@ -25,8 +25,9 @@ import {
 } from 'react-native/Libraries/NewAppScreen';
 
 import {Start} from '@Screens';
+import {AppContainer} from '@Navigation';
 const App = () => {
-  return <Start></Start>;
+  return <AppContainer></AppContainer>;
 };
 
 const styles = StyleSheet.create({
